@@ -115,7 +115,7 @@ function SnakeGame() {
 
   return (
     <>
-      <div className="flex flex-row items-center justify-center">
+      <div className="flex flex-col md:flex-row items-center justify-center">
         <div
           className={`grid grid-cols-${gridSize} gap-1 bg-gray-800 p-4 sm:p-6 border-black rounded-lg`}
         >

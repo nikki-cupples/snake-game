@@ -23,12 +23,14 @@ function HelpButton() {
         <>
           <p
             id="help-text"
-            className="top-1/3 right-1/2 text-xl m-4 absolute rounded border border-black bg-[#33D1BA] p-3 text-black shadow-lg"
+            className="top-1/4 md:top-1/3 right-1/2 md:text-xl m-4 absolute rounded border border-black bg-[#33D1BA] p-3 text-black shadow-lg"
           >
             Welcome! You are a snake... hit start and use your arrow keys to
             move.
             <br></br>
             No, you cannot go backwards.
+            <br></br>
+            Yes, you'll need a keyboard to play.
             <br></br>
             Click hint again to close the instructions.
           </p>
