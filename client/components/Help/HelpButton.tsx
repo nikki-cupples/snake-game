@@ -1,5 +1,3 @@
-// Create help button with instructions to follow for users
-
 import { useState } from 'react'
 
 function HelpButton() {
