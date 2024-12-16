@@ -6,3 +6,4 @@ https://nikki-cupples-pohutukawa-24-snake.pushed.nz/
 - Leaderboard
 - Login Page
 - Users can change the colour scheme
+- Game pad for mobile
