@@ -1,5 +1,6 @@
 import Footer from './Home/Footer'
 import Header from './Home/Header'
+import Main from './Main/Main'
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         className="bg-gradient-to-br from-[#f8a7dd] to-pink-500 min-h-screen"
       >
         <Header />
+        <Main />
       </div>
       <Footer />
     </>
