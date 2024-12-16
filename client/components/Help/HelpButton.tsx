@@ -10,10 +10,10 @@ function HelpButton() {
   }
 
   return (
-    <div className="mt-4 mr-16 flex flex-col justify-end items-end">
+    <div className="mt-4 mr-16 flex flex-col justify-end items-end relative">
       <button
         onClick={toggleHelp}
-        className="rounded-lg bg-black px-4 py-2 text-pink-500 shadow hover:bg-[#00BFA6] hover:text-black focus:outline-none focus:ring focus:ring-black"
+        className="rounded-lg text-xl bg-black px-4 py-2 text-pink-500 shadow hover:bg-[#00BFA6] hover:text-black focus:outline-none focus:ring focus:ring-black"
         aria-expanded={isHelpVisible}
         aria-controls="help-text"
       >
@@ -23,15 +23,12 @@ function HelpButton() {
         <>
           <p
             id="help-text"
-            className="mt-2 rounded border border-black bg-[#33D1BA] p-3 text-sm text-black shadow-lg"
+            className="top-16 text-xl w-1/4 absolute rounded border border-black bg-[#33D1BA] p-3 text-black shadow-lg"
           >
-            Welcome! You are a snake... begin using the arrow keys to move.
-          </p>
-          <p
-            id="help-text"
-            className="mt-2 rounded border border-black bg-[#33D1BA] p-3 text-sm text-black shadow-lg"
-          >
-            Eat the blocks and avoid the walls!
+            Welcome! You are a snake... hit start and use the arrow keys to
+            move.
+            <br></br>
+            No, you cannot go backwards.
           </p>
         </>
       )}

@@ -1,13 +1,14 @@
 import HelpButton from '../Help/HelpButton'
+import SnakeGame from '../SnakeGame/SnakeGame'
 
 function Main() {
   return (
     <>
       <main>
-        <div className="text-center text-black font-bold mt-16">
-          <h1>My Snake Game</h1>
-        </div>
         <HelpButton />
+        <div className="text-center text-black font-bold justify-center">
+          <SnakeGame />
+        </div>
       </main>
     </>
   )

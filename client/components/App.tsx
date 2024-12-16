@@ -7,12 +7,14 @@ function App() {
     <>
       <div
         id="app"
-        className="bg-gradient-to-br from-[#f8a7dd] to-pink-500 min-h-screen"
+        className="bg-gradient-to-br from-[#f8a7dd] to-pink-500 min-h-screen flex flex-col"
       >
-        <Header />
-        <Main />
+        <div className="flex-grow">
+          <Header />
+          <Main />
+        </div>
+        <Footer />
       </div>
-      <Footer />
     </>
   )
 }
