@@ -1,2 +1,2 @@
-# Nikki's Full Stack Template
-Complete setup for full stack react apps
+# Nikki's Snake Game
+Front-end, using React!
