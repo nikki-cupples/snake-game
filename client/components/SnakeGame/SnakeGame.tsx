@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import HelpButton from '../Help/HelpButton'
 
 function SnakeGame() {
   const [snake, setSnake] = useState([[5, 5]])
@@ -115,7 +116,7 @@ function SnakeGame() {
 
   return (
     <>
-      <div className="flex flex-col items-center justify-center">
+      <div className="flex flex-row items-center justify-center">
         <div
           className={`grid grid-cols-${gridSize} gap-1 bg-gray-800 p-4 sm:p-6 border-black rounded-lg`}
         >
@@ -138,7 +139,7 @@ function SnakeGame() {
             </div>
           ))}
         </div>
-        <div className="mt-4 flex flex-col items-center">
+        <div className="mt-2 ml-4 flex flex-col items-center">
           <button
             onClick={() => handleResetGame()}
             className="text-2xl sm:text-3xl m-2 rounded-lg bg-black px-4 py-2 text-pink-500 shadow hover:bg-[#00BFA6] hover:text-black focus:outline-none focus:ring focus:ring-black"
@@ -148,6 +149,7 @@ function SnakeGame() {
           <button className="text-2xl sm:text-3xl m-2 rounded-lg bg-black px-4 py-2 text-pink-500 shadow hover:bg-[#00BFA6] hover:text-black focus:outline-none focus:ring focus:ring-black">
             Score: {score}
           </button>
+          <HelpButton />
         </div>
       </div>
     </>
