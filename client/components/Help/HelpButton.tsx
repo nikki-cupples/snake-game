@@ -25,7 +25,7 @@ function HelpButton() {
             id="help-text"
             className="top-16 text-xl w-1/4 absolute rounded border border-black bg-[#33D1BA] p-3 text-black shadow-lg"
           >
-            Welcome! You are a snake... hit start and use the arrow keys to
+            Welcome! You are a snake... hit start and use your arrow keys to
             move.
             <br></br>
             No, you cannot go backwards.
