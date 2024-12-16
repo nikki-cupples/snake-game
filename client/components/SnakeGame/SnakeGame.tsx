@@ -23,8 +23,7 @@ function SnakeGame() {
 
   // -- MOVE SNAKE -- //
   useEffect(() => {
-    const handleKeyPress = (event: { key: any }) => {
-      console.log('Key Pressed:', event.key)
+    const handleKeyPress = (event: KeyboardEvent) => {
       switch (event.key) {
         case 'ArrowUp':
           setDirection((prev) => (prev !== 'DOWN' ? 'UP' : prev))
